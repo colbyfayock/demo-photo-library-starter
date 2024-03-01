@@ -1,6 +1,6 @@
 import MediaViewer from '@/components/MediaViewer';
 
-async function Resource({ params }: { params: { publicId: string } }) {
+async function Resource() {
   return (
     <MediaViewer
       resource={{

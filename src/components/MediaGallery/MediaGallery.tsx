@@ -42,7 +42,7 @@ const MediaGallery = ({ resources }: MediaGalleryProps) => {
       {/** Management navbar presented when assets are selected */}
 
       {selected.length > 0 && (
-        <Container className="fixed top-0 left-0 w-full h-16 flex items-center justify-between gap-4 bg-white shadow-lg">
+        <Container className="fixed z-50 top-0 left-0 w-full h-16 flex items-center justify-between gap-4 bg-white shadow-lg">
           <div className="flex items-center gap-4">
             <ul>
               <li>
@@ -102,7 +102,7 @@ const MediaGallery = ({ resources }: MediaGalleryProps) => {
                     <div className="relative">
                       <label className="absolute top-3 left-3 p-1" htmlFor={resource.id}>
                         <span className="sr-only">
-                          Select Image "{ resource.id }"
+                          Select Image &quot;{ resource.id }&quot;
                         </span>
                         <Checkbox
                           className={`w-6 h-6 rounded-full bg-white shadow ${isChecked ? 'border-blue-500' : 'border-zinc-200'}`}

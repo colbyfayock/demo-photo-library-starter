@@ -62,6 +62,17 @@ const MediaViewer = ({ resource }: { resource: { id: string; width: number; heig
     setDeletion(undefined)
   }
 
+  /**
+   * handleOnDeletionOpenChange
+   */
+
+  function handleOnDeletionOpenChange(isOpen: boolean) {
+    // Reset deletion dialog if the user is closing it
+    if ( !isOpen ) {
+      setDeletion(undefined);
+    }
+  }
+
   // Listen for clicks outside of the panel area and if determined
   // to be outside, close the panel. This is marked by using
   // a data attribute to provide an easy way to reference it on
@@ -88,8 +99,8 @@ const MediaViewer = ({ resource }: { resource: { id: string; width: number; heig
 
       {/** Modal for deletion */}
 
-      <Dialog open={!!deletion?.state}>
-        <DialogContent>
+      <Dialog open={!!deletion?.state} onOpenChange={handleOnDeletionOpenChange}>
+        <DialogContent data-exclude-close-on-click={true}>
           <DialogHeader>
             <DialogTitle className="text-center">Are you sure you want to delete?</DialogTitle>
           </DialogHeader>

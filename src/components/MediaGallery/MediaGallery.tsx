@@ -16,16 +16,31 @@ interface MediaGalleryProps {
 
 const MediaGallery = ({ resources }: MediaGalleryProps) => {
   const [selected, setSelected] = useState<Array<string>>([]);
+  const [creation, setCreation] = useState();
+
+  /**
+   * handleOnClearSelection
+   */
 
   function handleOnClearSelection() {
     setSelected([]);
+  }
+
+  /**
+   * handleOnCreationOpenChange
+   */
+
+  function handleOnCreationOpenChange(isOpen: boolean) {
+    if ( !isOpen ) {
+      setCreation(undefined);
+    }
   }
 
   return (
     <>
       {/** Popup modal used to preview and confirm new creations */}
 
-      <Dialog open={false}>
+      <Dialog open={!!creation} onOpenChange={handleOnCreationOpenChange}>
         <DialogContent>
           <DialogHeader>
             <DialogTitle>Save your creation?</DialogTitle>

@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <div className="grid grid-rows-[auto_1fr_auto] h-screen">
       <Nav />
-      <main className="grid md:grid-cols-[12rem_auto]">
+      <main className="grid grid-rows-[auto_1fr] md:grid-rows-none md:grid-cols-[12rem_auto]">
         <aside className="md:my-6">
           <SidebarLinks
             links={[

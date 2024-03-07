@@ -12,3 +12,16 @@ npx create-next-app@latest -e https://github.com/colbyfayock/demo-photo-library-
 
 > Tip: Alternatively, you can clone this repository, but running the above command helps with some additional tasks like resetting git history and installing dependencies!
 
+## Follow Along
+
+Coming here from another place? Be sure to follow along with the tutorial over on freeCodeCamp:
+- Video:
+- Article: 
+
+## More tutorials and walkthroughs
+
+🐦 [Follow me on Twitter](https://twitter.com/colbyfayock)
+
+📺 [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
+
+✉️ [Sign Up for My Newsletter](https://colbyfayock.com/newsletter)

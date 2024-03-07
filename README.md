@@ -1,1 +1,1 @@
-# Photo Gallery Starter
+# Photo Library Starter

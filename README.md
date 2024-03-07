@@ -18,7 +18,7 @@ Coming here from another place? Be sure to follow along with the tutorial over o
 - Video:
 - Article: 
 
-## More tutorials and walkthroughs
+## More Tutorials & Walkthroughs
 
 🐦 [Follow me on Twitter](https://twitter.com/colbyfayock)
 

@@ -114,8 +114,8 @@ const MediaGallery = ({ resources }: MediaGalleryProps) => {
 
                 return (
                   <li key={resource.id} className="bg-white dark:bg-zinc-700">
-                    <div className="relative">
-                      <label className="absolute top-3 left-3 p-1" htmlFor={resource.id}>
+                    <div className="relative group">
+                      <label className={`absolute ${isChecked ? 'opacity-100' : 'opacity-0'} group-hover:opacity-100 transition-opacity top-3 left-3 p-1`} htmlFor={resource.id}>
                         <span className="sr-only">
                           Select Image &quot;{ resource.id }&quot;
                         </span>

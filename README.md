@@ -15,8 +15,7 @@ npx create-next-app@latest -e https://github.com/colbyfayock/demo-photo-library-
 ## Follow Along
 
 Coming here from another place? Be sure to follow along with the tutorial over on freeCodeCamp:
-- Video:
-- Article: 
+- Video: https://www.youtube.com/watch?v=l71rTm_0260
 
 ## More Tutorials & Walkthroughs
 

@@ -5,7 +5,7 @@ A Next.js photo-library UI prototype with selectable placeholder image tiles and
 ## Use this template
 
 ```bash
-
+npx create-next-app -e https://github.com/colbyfayock/demo-photo-library-starter
 ```
 
 ## Local setup

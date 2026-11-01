@@ -1,23 +1,22 @@
 # Photo Library Starter
 
-A starter project focused on photo library, built with Next.js.
+A Next.js photo-library UI prototype with selectable placeholder image tiles and a selection toolbar, without a connected media API.
 
 ## Use this template
 
 ```bash
-npx create-next-app -e https://github.com/colbyfayock/demo-photo-library-starter
+
 ```
 
 ## Local setup
 
-Install dependencies with npm and start the development server:
+Install dependencies with npm, then start the development server:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
+Use `npm run build` to create a production build.
 
-Use `npm run build` to build the project.
-Use `npm run start` to run the production build.
+Follow the accompanying [freeCodeCamp tutorial video](https://www.youtube.com/watch?v=l71rTm_0260).
